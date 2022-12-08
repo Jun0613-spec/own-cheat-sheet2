@@ -1,0 +1,297 @@
+body {
+    maring: 0;
+    padding: 0;
+}
+
+/*Header*/
+
+header {
+    padding: 10px;
+    background-color: white;
+}
+
+.headcontainer {
+    width: 90%;
+    height: 100px;
+    padding: 2% 1%;
+    margin: 0 auto;
+}
+
+.headcontainer h1 {
+    display: inline-block;
+    width: 50%;
+    color: #211503;
+    font-size: 42px;
+    font-family: 'Silkscreen', cursive;
+}
+
+nav {
+    position: relative;
+    top: 22.5px;
+    float: right;
+    margin: 20px;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 5px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: white;
+    transition-duration: 1000ms;
+}
+
+/*Main*/
+
+main .colorcontainer {
+    padding: 10% 0;
+    width: 100%;
+    height: 600px;
+    background-color: #65350F;
+}
+
+main .innercontainer {
+    background-color: #FFFFFF;
+    width: 75%;
+    height: 100%;
+    margin: 0 auto;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+main h2 {
+    text-align: center;
+    width: fit-content;
+    margin: 30px auto;
+    color: #211503;
+    font-size: 32px;
+    font-family: 'Silkscreen', cursive;
+}
+
+main h3 {
+    font-family: 'Silkscreen', cursive;
+    font-size: 22px;
+}
+
+main h4 {
+    font-family: 'Fuzzy Bubbles', cursive;
+    font-size: 18px;
+}
+
+main .topgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: 200px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    width: fit-content;
+    margin: 20px auto;
+}
+
+main .botgrid{
+    display: grid;
+    grid-template-columns: repeat(2, 200px);
+    grid-template-rows: 200px;
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+    margin: 20px auto;
+    width: fit-content;
+}
+
+.box{
+    border: 4px solid black;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.box h3 {
+    margin: 5px auto;
+}
+
+.box h4 {
+    margin: 5px auto;
+}
+
+main .color1 {
+    background-color: #211503;
+    color: #ffffff;
+}
+
+main .color2 {
+    background-color: #65350F;
+    color: #ffffff;
+}
+
+main .color3 {
+    background-color: #000000;
+    color: #ffffff;
+    
+}
+
+main .color4 {
+    background-color: #9A7B4F;
+    color: #211503;
+    
+}
+
+main .color5 {
+    background-color: #FFFFFF;
+    color: #211503;
+}
+
+.fontcontainer {
+    background-color: #9A7B4F;
+    padding: 10% 0;
+    width: 100%;
+    height: 600px;
+}
+
+.fontcontainer h2 {
+    margin-bottom: 5%;
+}
+.fontcontainer h3 {
+    margin: 10px 0;
+}
+
+.fontcontainer h4 {
+    margin: 10px 0;
+}
+.fontcontainer p {
+    margin: 10px 0;
+}
+
+.silkscreen {
+    width: 45%;
+    display: inline-block;
+    margin-left: 4%;
+    margin-right: 1%;
+}
+
+.font-label {
+    font-size: 40px;
+    text-decoration: underline;
+}
+
+.sample {
+    font-size: 30px;
+}
+
+.regular {
+    font-style: normal;
+    font-size: 18px
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 22px;
+}
+
+.silk-screen {
+    font-family: 'Silkscreen', cursive;
+}
+
+.fuzzy-bubbles {
+    font-family: 'Fuzzy Bubbles', cursive;
+}
+
+.fuzzybubbles {
+    width: 45%;
+    float: right;
+    margin-right: 4%;
+}
+
+.textcontainer {
+    background-color: #FFFFFF;
+    padding: 10% 0;
+    width: 100%;
+    height: 600px;
+}
+
+.textgrid {
+    display: grid;
+    grid-template-columns: repeat(3, 30%);
+    grid-template-rows: 25%;
+    grid-column-gap: 10px;
+    grid-row-gap: 0px;
+}
+
+.box2 {
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 5px;
+    margin: 0 0 0 15%;
+    background-color: #9A7B4F;
+}
+
+.box2 ul {
+    padding-left: 20px;
+}
+
+.box2 ul li {
+    font-family: 'Fuzzy Bubbles', cursive;
+    line-height: 1.5;
+}
+
+.box2 h3 {
+    margin: 10px;
+}
+
+/*Footer*/
+
+footer {
+    padding: 10px;
+    background-color: #9A7B4F;
+}
+
+.footcontainer {
+    width: 50%;
+    height: 200px;
+    padding: 2% 1%;
+    margin: 0 auto;
+}
+
+footer h3 {
+    font-family: 'Silkscreen', cursive;
+    font-weight: 700;
+    font-size: 32px;
+}
+
+footer h5 {
+    font-family: 'Silkscreen', cursive;
+    font-weight: 700;
+    font-size: 22px;
+}
+
+footer ul li a {
+    text-decoration: none;
+    font-family: 'Fuzzy Bubbles';
+    font-weight: bold;
+    color: #000000;
+}
+
+.footright {
+    float: center;
+}
+
+
+.footleft h3 {
+    display: inline-block;
+}
+
+.footleft h5 {
+    display: inline-block;
+    margin-left: 20px;
+}
